@@ -56,7 +56,7 @@ while True:
 		parse_ua(get_html('https://baza-gai.com.ua/nomer/' + num))
 	elif shell == '2':
 		phone = input(f'{CYAN}[{RED}*{CYAN}] Номер телефона: {GREEN}')
-		try:
+		try:+79511342484
 			response = requests.get('https://htmlweb.ru/geo/api.php?json&telcod=' + phone)
 			data = response.json()
 			user_country = data[ 'country' ][ 'english' ]
