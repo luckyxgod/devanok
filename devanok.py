@@ -55,7 +55,7 @@ while True:
 		num = input(f'{CYAN}[{RED}*{CYAN}] Car-Number: {GREEN}')
 		parse_ua(get_html('https://baza-gai.com.ua/nomer/' + num))
 	elif shell == '2':
-		phone = input(f'{CYAN}[{RED}*{CYAN}] Номер телефона: {GREEN}')
+		phone = input(f'{CYAN}[{RED}*{CYAN}] Номер телефона:79511342484 {GREEN}')
 		try:
 			response = requests.get('https://htmlweb.ru/geo/api.php?json&telcod=' + phone)
 			data = response.json()
